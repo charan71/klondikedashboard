@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+httpRequest.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+</IfModule>
